@@ -1,37 +1,107 @@
 # sachin.html
+<!DOCTYPE html>
 <html>
-  <head>
-    <style>
-        .abc
-        {
-        color:white;
-        font-family:Arial,helvetica;
-        font-size:20;
-        background-color:blue;
-        }
-      </style>
-  </head>
-  <body>
-    <centre>
-      <h2 class="abc"><marques> JSS K.H.KABUR INSTITUTE OF ENGGINEERING VIDYAGIRI DHARWAD</h2></marques>
-      <img src="https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.khkie.co.in%2Faboutkhk.php&psig=AOvVaw0D3h90BhxvIHbVzLd6vmHg&ust=1721903723399000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNjOtLC9v4cDFQAAAAAdAAAAABAS.jpg">
-      <p style="color:white"> The K.H.Kabbur Institute of Engineering is located in the beautiful garden city of Dharwad also known as “Chota Mahabaleshwar” because of its geographical importance. Dharwad is often called the Cambridge of Karnataka as it being the well known and the largest education center in the entire north Karnataka.</p>
-      <p1 style="color:white"> 
-        The Institute started functioning from 1956 with Diploma Course in Civil Engineering with an intake of 30 students.  At present the Institute is functioning with 7 disciplines (Courses) viz. Civil Engg. , Mechanical Engg., Electrical Engg., Automobile Engg., Computer Science & Engg., Electronics Engg., and Commercial practice and 4 schemes such as NSS, ISTE, C-TECH & Community Polytechnic to serve the needs of the society.     It is the largest among aided Polytechnics and one of the most reputed Technical Institutions in the State.</p1>
-      </centre>
-      </body>
-      </html>
-      
-        
-      
+
+<head>
+    <title>Simple web page Template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar background">
+        <div class="logo">
+            <img src=
+"https://media.geeksforgeeks.org/gfg-gg-logo.svg" 
+                 style="height: 30px;" 
+                 alt="Logo">
+        </div>
+        <ul class="nav-list">
+            <li><a href="#web">Web Technology</a></li>
+            <li><a href="#program">C Programming</a></li>
+            <li><a href="#course">Courses</a></li>
+        </ul>
+        <div class="rightnav">
+            <input type="text" 
+                   name="search" 
+                   id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+
+    <section class="firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" 
+                    id="web">Web Technology
+                  </h1>
+                <p class="text-small">
+                    HTML stands for HyperText Markup Language.
+                    It is used to design web pages using a markup
+                    language. HTML is the combination of Hypertext
+                    and Markup language. Hypertext defines the
+                    link between the web pages. A markup language
+                    is used to define the text document within tag
+                    which defines the structure of web pages.
+                    HTML is a markup language that is used by the
+                    browser to manipulate text, images, and other
+                    content to display it in the required format.
+                </p>
 
 
-        
-  </body>
-        </style>
-        
-        
-    
-      
-  </head>
+            </div>
+        </div>
+    </section>
+
+    <section class="secondsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" 
+                    id="program">
+                    C Programming
+                </h1>
+                <p class="text-small">
+                    C is a procedural programming language. It
+                    was initially developed by Dennis Ritchie
+                    as a system programming language to write
+                    operating system. The main features of C
+                    language include low-level access to memory,
+                    simple set of keywords, and clean style,
+                    these features make C language suitable for
+                    system programming like operating system or
+                    compiler development.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="paras">
+            <h1 class="sectionTag text-big">Java</h1>
+            <p class="sectionSubTag text-small">
+                Java has been one of the most popular
+                programming language for many years.
+                Java is Object Oriented. However it is
+                not considered as pure object oriented
+                as it provides support for primitive
+                data types (like int, char, etc) The
+                Java codes are first compiled into byte
+                code (machine independent code). Then
+                the byte code is run on Java Virtual
+                Machine (JVM) regardless of the
+                underlying architecture.
+            </p>
+        </div>
+    </section>
+
+    <footer class="background">
+        <p class="text-footer">
+            Copyright ©-All rights are reserved
+        </p>
+    </footer>
+</body>
+
 </html>
+      
+
+
+        
